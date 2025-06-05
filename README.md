@@ -1,4 +1,4 @@
-# Setting Up Semantic Release in a New GitHub Repository
+# Setting Up Semantic Release in a new GitHub Repository
 
 This guide will walk you through the process of setting up Semantic Release in a new GitHub repository.
 
@@ -32,9 +32,9 @@ Create .github/workflows/release.yml
 Add.node_modules to.gitignore to avoid committing node_modules.
 
 ## Step 8: Test it by First commit & push
-Stage and commit:
+Stage and commit:<br
 `git commit -m "feat: initial semantic-release setup"`
-Push to GitHub:
+Push to GitHub:<br>
 `git push origin main`
 
 ### Purposes of Commit Messages:
