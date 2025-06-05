@@ -32,8 +32,8 @@ Create .github/workflows/release.yml
 Add.node_modules to.gitignore to avoid committing node_modules.
 
 ## Step 8: Test it by First commit & push
-Stage and commit:<br
-`git commit -m "feat: initial semantic-release setup"`
+Stage and commit:<br>
+`git commit -m "feat: initial semantic-release setup"`<br>
 Push to GitHub:<br>
 `git push origin main`
 
