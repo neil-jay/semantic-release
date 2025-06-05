@@ -1,5 +1,5 @@
 # Setting Up Semantic Release in a New GitHub Repository
-=====================================================
+
 This guide will walk you through the process of setting up Semantic Release in a new GitHub repository.
 
 ### Prerequisites
@@ -59,6 +59,6 @@ Push to GitHub:
 -   chore: Maintenance tasks, build system changes, Routine tasks (e.g., dependency updates), etc. (No version change)
 -   revert: Reverts to a previous commit (No version change)
 -   BREAKING CHANGE: Indicates a breaking change (Major version release)
--   feat: BREAKING CHANGE: (Major version release) eg:
+-   feat: BREAKING CHANGE: (Major version release) eg:<br>
 `git commit -m "feat: change auth flow" -m "BREAKING CHANGE: login endpoint removed"`
 
